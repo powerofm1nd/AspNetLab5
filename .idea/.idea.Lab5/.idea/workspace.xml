@@ -9,7 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64617ec2-80ab-4bd9-810f-c47d4e5363fa" name="Changes" comment="" />
+    <list default="true" id="64617ec2-80ab-4bd9-810f-c47d4e5363fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Lab5/Logger/FileLogger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab5/Providers/FileLoggerProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/MyMiddlewares/ExceptionLoggerMiddleware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/MyMiddlewares/ExceptionLoggerMiddleware.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/Services/ILogger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/Services/TextLoggerService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/logger.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,16 +35,43 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "powerofm1nd"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/powerofm1nd/AspNetLab5.git",
+    "accountId": "bdcb8a01-af8e-412c-9d1b-c180d2320c76"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0259fbf5930543228b627be3a9e0d982118b0/1b/86636818/IRequestCookieCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/09cb1dc997654f76836b95c5c02211cb188a0/5c/0eb4b357/LoggerFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24372012c6c94138bf3f496e104366ffc8f918/6f/3d4e9992/ExceptionDispatchInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24372012c6c94138bf3f496e104366ffc8f918/ad/a6cef6f7/MethodBaseInvoker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3b6bad9501a24a9f84456bf7a335e46224910/9a/a801fa26/Logger`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f0933d9fb86452b9c3ee70ba14e9558c98b0/a9/9e4e356b/RoutePatternParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7406367d24c3445eb814ee56e651118f25910/26/cc91dba4/HostBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7406367d24c3445eb814ee56e651118f25910/b9/45a67d67/ConsoleLifetime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ad34314bcfb84253bea0f783ec529d2e43908/ec/48ebf9e6/ConcurrentDictionary`2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c96574d8fb154948b08619f307ab3049228b0/96/40e3cbf9/ServiceProviderServiceExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e17a1e5b07d2474b89543e61e223a8df4e8a0/be/421e8561/HttpRequest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fcbf4f8a5ab54375abcfa46e8f5896b5358a0/37/8bb11f8e/ServiceProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fcbf4f8a5ab54375abcfa46e8f5896b5358a0/44/e79338ea/CallSiteRuntimeResolver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fcbf4f8a5ab54375abcfa46e8f5896b5358a0/ab/a0b01ece/CallSiteVisitor`2.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2mpGqDqGxn1sRDl8eJSFKoDpk7Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,6 +81,7 @@
     ".NET Launch Settings Profile.Lab5: IIS Express.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -108,13 +146,14 @@
       <option name="presentableId" value="Default" />
       <updated>1727766293518</updated>
       <workItem from="1727766294708" duration="11543000" />
-      <workItem from="1727863445292" duration="7287000" />
+      <workItem from="1727863445292" duration="14617000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />

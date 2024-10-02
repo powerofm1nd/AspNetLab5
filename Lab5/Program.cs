@@ -1,10 +1,9 @@
 using Lab5;
-using Lab5.Services;
-using ILogger = Lab5.Services.ILogger;
+using Lab5.Providers;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddSingleton<ILogger, TextLoggerService>();
-
+builder.Logging.AddFile(builder.Configuration["FileLoggerPath"]);
+builder.Services.AddSingleton(sp => sp.GetRequiredService<ILoggerFactory>().CreateLogger("DefaultLogger"));
 var app = builder.Build();
 
 //Варіант 1 перехват та запис Exception через власний Middleware
@@ -24,7 +23,7 @@ app.UseExceptionLoggerMiddleware();
 
 app.MapGet("/", (HttpResponse  response) =>
 {
-    //throw new Exception("123"); //Генерація помилки
+    throw new Exception("123"); //Генерація помилки
     var html = File.ReadAllText(@"./www/MyForm.html");
     response.WriteAsync(html);
 });
